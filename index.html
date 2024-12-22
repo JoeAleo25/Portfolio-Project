@@ -4,9 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Slab:wght@100..900&display=swap"
+        rel="stylesheet">
+        <script src="script.js"></script>
 
 </head>
 <body>
-    <h1>My portfolio</h1>
+    <nav class="navbar">
+        <div class="hamburger" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#">Joseph Aleo</a></li>
+            <li><a href="#">About Me</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Skills</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-me">
+        <div class="about-me-text">
+            <h1>About Me</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, aliquid.
+                Voluptas totam temporibus sequi quas deserunt ut cumque.
+                Aperiam excepturi ab magni quod ad eaque assumenda, ut sed officiis sequi?
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, ipsa suscipit.
+                Rerum numquam rem nisi harum officia molestias id corrupti neque voluptatibus 
+                fuga laboriosam deserunt, possimus eaque nesciunt inventore quia?
+            </p>
+        </div>
+        <div class="about-me-photo">
+            <img src="images/pexels-rdne-8124420.jpg" alt="About Me Photo">
+        </div>
+    </section>
+
+    <section class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <a href="#">Project One</a>
+            <a href="#">Project Two</a>
+            <a href="#">Project Three</a>
+        </div>
+    </section>
+
 </body>
 </html>
